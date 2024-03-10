@@ -1,0 +1,94 @@
+header{
+    background-color: darkgrey;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+main {
+    padding: 10px;
+    width: 940px;
+    margin: 0 auto;
+}
+
+main ul { 
+    margin: 0 auto;
+    width: 940px;
+}
+
+main ul li {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0 1.5%px;
+    width: 30%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+main ul li h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+main ul li p {
+    margin-top: 5px;
+}
+
+main ul li p+p {
+    font-weight: bold;
+}
+
+main ul li:hover {
+    color: brown;
+    border-color: brown;
+    cursor: pointer;
+}
+
+footer{
+    background-image: url("/imagenes/bg.jpg");
+    text-align: center;
+}
+
+footer p{
+    color: #fff;
+}
+
+form label{
+    display: block;
+    font-size: 14px;
+}
+
+form input[type=text], textarea{
+    padding: 10px;
+    width: 250px;
+}
+
+form input[type=submit], form input[type=email]{
+    padding: 7px;
+    margin-top: 5px;
+}
+
+.input-padron{
+    display: block;
+    margin: 7px 0;
+}
+
+.check {
+    margin: 15px 0;
+}
+ 
